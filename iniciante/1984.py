@@ -1,7 +1,6 @@
 n = input()
-número = list(n)
-número_invertido = []
-while len(número)!=0:
-    dígito = número.pop(-1)
-    número_invertido.append(dígito)
-print(''.join(número_invertido))
+i=len(n)-1
+while i>=0:
+    print(n[i], end='')
+    i-=1
+print()
