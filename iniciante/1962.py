@@ -7,5 +7,5 @@ for _ in range(N):
         sigla = 'D.C.'
     else:
         A = abs(diferença)+1
-        sigla = 'A.C'
+        sigla = 'A.C.'
     print(f'{A} {sigla}')
